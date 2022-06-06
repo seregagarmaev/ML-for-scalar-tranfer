@@ -17,7 +17,7 @@ FoamFile
 
 transportModel  Newtonian;
 
-nu              0.00035;
+nu              0.00048;
 
 // Laminar Prandtl number
 Pr              0.71;
@@ -32,6 +32,6 @@ Prt             0.85;
 //TRef            300;
 
 // u_tau / u_b from DNS
-u_tau           0.06579;
+u_tau           0.071147; //0.06579;
 
 // ************************************************************************* //
